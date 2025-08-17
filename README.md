@@ -27,7 +27,63 @@ A **Django-based Machine Learning Web Application** that predicts the survival c
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repository:
+ Clone the repository:
    ```bash
    git clone https://github.com/your-username/titanic-survival-prediction.git
    cd titanic-survival-prediction
+
+ Create a virtual environment:
+
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run migrations:
+
+python manage.py migrate
+
+
+Start the development server:
+
+python manage.py runserver
+
+
+Open the app in your browser:
+
+http://127.0.0.1:8000/
+
+📂 Project Structure
+marvel-cinematic-universe/
+│-- marvel/              # Main Django app
+│-- templates/           # HTML templates
+│-- static/              # CSS, JS, Images
+│-- db.sqlite3           # Database (default)
+│-- manage.py            # Django project manager
+│-- requirements.txt     # Project dependencies
+│-- README.md            # Documentation
+
+🔮 Future Improvements
+
+Add API integration for live Marvel data.
+
+User authentication (login/signup).
+
+Dark/Light theme toggle.
+
+More superhero customization options.
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+💡 Made with ❤️ using Django
