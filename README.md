@@ -1,4 +1,4 @@
-# Titanic Survival Prediction 🚢🔮
+# Titanic Survival Prediction Model 🚢🔮
 
 A **Django-based Machine Learning Web Application** that predicts the survival chances of Titanic passengers based on their details such as class, age, gender, and more.
 
