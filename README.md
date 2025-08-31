@@ -20,6 +20,8 @@ A **Django-based Machine Learning Web Application** that predicts the survival c
 - **Database**: SQLite (default, can be changed)
 - **Model Deployment**: Pickle/Joblib for ML model integration
 
+  -------------------------------------------------------------------------
+
 - 📂 Project Structure
 titanic-survival-prediction/
 │-- ml_model/            # Trained ML model files
