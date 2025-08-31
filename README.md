@@ -20,9 +20,36 @@ A **Django-based Machine Learning Web Application** that predicts the survival c
 - **Database**: SQLite (default, can be changed)
 - **Model Deployment**: Pickle/Joblib for ML model integration
 
+- 📂 Project Structure
+titanic-survival-prediction/
+│-- ml_model/            # Trained ML model files
+│-- prediction/          # Main Django app
+│-- templates/           # HTML templates
+│-- static/              # CSS, JS, Images
+│-- db.sqlite3           # Database (default)
+│-- manage.py            # Django project manager
+│-- requirements.txt     # Project dependencies
+│-- README.md            # Documentation
 
+🔮 Future Improvements
 
-## Made by Atharva chavhan
+Add visual analytics (charts for prediction results).
+
+Deploy on Heroku / PythonAnywhere / AWS.
+
+Improve model with more features & tuning.
+
+Add user authentication and history tracking.
+
+🤝 Contributing
+
+Pull requests are welcome! For significant changes, please open an issue first to discuss.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+💡 Made by Atharva Chavhan
 
 ---
 
